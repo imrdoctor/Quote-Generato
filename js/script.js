@@ -69,14 +69,14 @@ var qoutes = [
 var previousNum = -1; 
 function getQoutes() {
     var num;
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < qoutes.length; i++) {
         num = Math.floor(Math.random() * qoutes.length);
         if (num !== previousNum) {
             break;
         }
     }
     previousNum = num; 
-    // console.log(num);
+    console.log(num);
     document.getElementById("quote").innerHTML = qoutes[num].qoutes;
     document.getElementById("quoteImage").src = qoutes[num].image;
     document.getElementById("quoteName").innerHTML = qoutes[num].name;
