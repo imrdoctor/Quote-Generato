@@ -65,7 +65,6 @@ var qoutes = [
 
     },
 ];
-
 var previousNum = -1; 
 function getQoutes() {
     var num;
@@ -78,6 +77,7 @@ function getQoutes() {
     previousNum = num; 
     console.log(num);
     document.getElementById("quote").innerHTML = qoutes[num].qoutes;
+    document.getElementById("quote").classList.add("active");
     document.getElementById("quoteImage").src = qoutes[num].image;
     document.getElementById("quoteName").innerHTML = qoutes[num].name;
     document.getElementById("quoteImage").classList.add("active");
