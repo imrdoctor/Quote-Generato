@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html {
+	font-size: 16px;
+}
+html body {
+    background-color: #111315;
+    color: white;
+}
+body h1{
+    font-family: "Luckiest Guy", cursive;
+    color: #b0acfa;
+}
+#quoteImage.active {
+    display: block;
+}
+
+#quoteImage {
+    display: none;
+}
+
+.quote_card{
+    background-color: #181f1f;
+    padding: 8px;
+    min-width: 75%;
+    max-width: 75%;
+}
+
+.quote_card button{
+    background: #b0acfa;
+    color: white;
+}
+.quote_card button:hover{
+    background: #b0acfa;
+    color: white;
+}

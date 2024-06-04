@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- <div class="elemtns h-100">
+        <div class="all_elements">
+            <div class="title  py-3">
+                <h1 class="text-center">Quote of the Day</h1>
+                <p class="h2 text-center">Press the button below to recieve a random quote!    </p>
+                <button onclick="getQoutes()" class="btn btn-outline-primary d-block m-auto">New Quote</button>
+            </div>
+            <div class="container">
+                <div class="items">
+                    <p id="quote" class="text-center h4 mt-2"></p>
+                    <img id="quoteImage" style="width: 100px; height: 100px;" class="img-fluid  rounded-circle mx-auto" src="">
+                    <p id="quoteName" class="text-center h3 mt-2 "></p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="row col-md-4 vh-100 w-100">
+        <div class="container d-flex align-items-center justify-content-center">
+            <div class="quote_card rounded">
+                <h1 class="text-center">Quote of the Day</h1>
+                <p class="h2 text-center">Press the button below to recieve a random quote!    </p>
+                <p id="quote" class="text-center h4 mt-2"></p>
+                <img id="quoteImage" style="width: 100px; height: 100px;" class="img-fluid  rounded-circle mx-auto" src="">
+                <p id="quoteName" class="text-center h3 mt-2 "></p>
+                <button onclick="getQoutes()" class="btn text-white d-block w-50 m-auto fs-3 ">Generate <span c>⚙</span></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
